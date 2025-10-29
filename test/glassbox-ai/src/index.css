@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f172a; /* matches your dark gradient */
+  overflow-x: hidden; /* optional – prevents any white line on scroll */
+}
+
+
+/*
+  Add this @reference directive as suggested by the error.
+  This tells Vite/PostCSS to include all of Tailwind's known utilities
+  so they can be correctly applied by the directives below.
+*/
+@reference "tailwindcss";
+
+/* These are the 3 core directives for Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add any custom global styles below */
+body {
+  @apply bg-gray-50 font-sans text-gray-900;
+}
+
