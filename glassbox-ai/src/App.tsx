@@ -105,14 +105,14 @@ export default function App() {
           </div>
 
           <div className="mt-16 relative">
-            <div className="bg-slate-900/50 backdrop-blur border border-slate-800 rounded-2xl p-8 shadow-2xl">
-              <img
-                src="/image.png"
-                alt="GlassBox Platform"
-                className="w-full rounded-lg opacity-90"
-              />
+            
+            <img
+              src="/1.png"
+              alt="GlassBox Platform"
+              className="w-full rounded-lg opacity-90"
+            />
 
-            </div>
+            
           </div>
         </div>
       </section>
@@ -195,7 +195,11 @@ export default function App() {
               </div>
 
               <div className="bg-slate-900/50 backdrop-blur border border-slate-800 rounded-2xl p-6">
-                <img src="https://placehold.co/1200x600/1e293b/94a3b8?text=SHAP+Dashboard" alt="SHAP Dashboard" className="w-full rounded-lg" />
+                <img
+                src="/7.webp"
+                alt="GlassBox Platform"
+                className="w-full rounded-lg opacity-90"
+                />
               </div>
             </div>
           </div>
@@ -203,8 +207,12 @@ export default function App() {
           {/* Feature 2: AUDIT */}
           <div className="mb-20">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="order-2 md:order-1 bg-slate-900/50 backdrop-blur border border-slate-800 rounded-2xl p-6">
-                <img src="https://placehold.co/1200x600/1e293b/94a3b8?text=Fairness+Dashboard" alt="Fairness Dashboard" className="w-full rounded-lg" />
+              <div className="bg-slate-900/50 backdrop-blur border border-slate-800 rounded-2xl p-6">
+                <img
+                src="/5.jpg"
+                alt="GlassBox Platform"
+                className="w-full rounded-lg opacity-90"
+                />
               </div>
 
               <div className="order-1 md:order-2">
@@ -260,7 +268,11 @@ export default function App() {
               </div>
 
               <div className="bg-slate-900/50 backdrop-blur border border-slate-800 rounded-2xl p-6">
-                <img src="https://placehold.co/1200x600/1e293b/94a3b8?text=Compliance+Report" alt="Compliance Report" className="w-full rounded-lg" />
+                <img
+                src="/6.jpg"
+                alt="GlassBox Platform"
+                className="w-full rounded-lg opacity-90"
+                />
               </div>
             </div>
           </div>
